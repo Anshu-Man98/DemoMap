@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Image with Padding</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0; /* Optional: background color */
+        }
+        .image-container {
+            padding: 20px; /* Adjust padding as needed */
+            background-color: black; /* Optional: background color around the image */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: shadow for better visibility */
+            height: 90%;
+            width: 90%;
+        }
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="assets/mapppp.png" alt="Centered Image">
+    </div>
+</body>
+</html>
